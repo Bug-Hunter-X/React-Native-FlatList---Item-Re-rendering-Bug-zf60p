@@ -1,0 +1,1 @@
+This bug occurs when using the `FlatList` component in React Native with a large dataset.  The issue is that the `renderItem` function is called repeatedly for the same item, leading to performance issues and incorrect rendering.  This often happens when the data source changes frequently or when the component is re-rendered.
